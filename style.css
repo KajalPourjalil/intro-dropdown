@@ -41,18 +41,40 @@ header > h4:hover {
     cursor: pointer;
 }
 
+img {
+    width: 20px;
+    margin-top: 35px;
+}
+
 ul {
     color: hsl(0, 0%, 41%);
     font-weight: 500;
     margin-top: 28px;
+    margin-right: 10px;
 }
 
 ul > li {
-    /* marker: none; */
     display: none;
 }
 
 ul:hover {
     color: hsl(0, 0%, 8%) ;
+    cursor: pointer;
+}
+
+#reg, #log {
+    background-color: hsl(0, 0%, 98%);
+    width: 90px;
+    height: 40px;
+    border-radius: 13px;
+    margin-top: 17px;
+    font-weight: 700;
+    font-size: 15px;
+    /* border: white; */
+}
+
+
+header > button:hover{
+    border: 5px solid black;
     cursor: pointer;
 }
