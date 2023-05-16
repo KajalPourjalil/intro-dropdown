@@ -1,7 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
+
+/* - Almost White: hsl(0, 0%, 98%)
+- Medium Gray: hsl(0, 0%, 41%)
+- Almost Black: hsl(0, 0%, 8%) */
+
+
 * {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 98%);
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header > h1 {
+    color: hsl(0, 0%, 8%);
+}
+
+ul {
+    color: hsl(0, 0%, 41%);
+    text-decoration: none;
+    
+}
+
+ul:hover {
+    color: hsl(0, 0%, 8%) ;
+    cursor: pointer;
 }
