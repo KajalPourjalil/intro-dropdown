@@ -62,19 +62,30 @@ ul:hover {
     cursor: pointer;
 }
 
+
+
 #reg, #log {
     background-color: hsl(0, 0%, 98%);
-    width: 90px;
     height: 40px;
     border-radius: 13px;
     margin-top: 17px;
     font-weight: 700;
     font-size: 15px;
-    /* border: white; */
+    border: white;
+    
+    float: right;
+}
+
+#reg {
+    width: 130px;
+}
+
+#log {
+    width: 100px;
 }
 
 
-header > button:hover{
-    border: 5px solid black;
+#reg:hover, #log:hover{
+    border: 2px solid black;
     cursor: pointer;
 }
