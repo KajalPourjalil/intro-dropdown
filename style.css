@@ -94,14 +94,15 @@ ul:hover {
 /* ................................................ */
 
 .container {
-    margin: 30px 102px;
+    margin: 80px 102px;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 823px;
 }
 
 .text {
-    margin: 60px 100px;
+    margin: 90px 100px 0px 100px;
     width: 450px;
 }
 
@@ -134,3 +135,7 @@ ul:hover {
 }
 
 /* .................................... */
+
+.right-part {
+    width: 150px;
+}
