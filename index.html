@@ -1,60 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Intro with drop down</title>
-</head>
-<body>
-<header>
-    <div class="logo">
-        <img src="logo.svg" alt="logo">
-    </div>
-    
-    <ul>
-     Features
-        <li>Todo List</li>
-        <li>Calendar</li>
-        <li>Reminder</li>
-        <li>Planning</li>
-    </ul>
-    <img src="icon-arrow-down.svg" alt="arrow-down" width="0.5px" height="10px">
-    <ul>Company
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="logo.svg" alt="logo" />
+      </div>
+
+      <button id="dp1">Features</button>
+      <img
+        src="icon-arrow-down.svg"
+        alt="arrow-down"
+        width="0.5px"
+        height="10px"
+      />
+
+      <ul id="dpm1">
+        <li><img src="icon-todo.svg" alt="" />Todo List</li>
+        <li><img src="icon-calendar.svg" alt="" />Calendar</li>
+        <li><img src="icon-reminders.svg" alt="" />Reminder</li>
+        <li><img src="icon-planning.svg" alt="" />Planning</li>
+      </ul>
+
+      <button id="dp2">Company</button>
+      <img
+        src="icon-arrow-down.svg"
+        alt="arrow-down"
+        width="0.5px"
+        height="10px"
+      />
+      <ul id="dpm2">
         <li>History</li>
         <li>Our Team</li>
         <li>Blog</li>
-    </ul>
-    <img src="icon-arrow-down.svg" alt="arrow-down" width="0.5px" height="10px">
-    <h4>Careers</h4>
-    <h4 class="about">About</h4>
-    <button id="log">Login</button>
-    <button id="reg">Register</button>
-</header>
-<div class="container">
-    <div class="text">
+      </ul>
+      
+      <h4>Careers</h4>
+      <h4 class="about">About</h4>
+      <button id="log">Login</button>
+      <button id="reg">Register</button>
+    </header>
+    <div class="container">
+      <div class="text">
         <div class="written">
-            <h1>Make remote work</h1>
-            <h3>Get your team in sync, no matter your location.
-                Streamline processes, create team rituals, and<br/>
-                watch productivity soar.
-            </h3>
+          <h1>Make remote work</h1>
+          <h3>
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and<br />
+            watch productivity soar.
+          </h3>
         </div>
         <div class="button">
-            <button>Learn more</button>
+          <button>Learn more</button>
         </div>
         <div class="sponsors">
-            <img src="client-databiz.svg" alt="" width="90px">
-            <img src="client-audiophile.svg" alt="" width="60px">
-            <img src="client-meet.svg" alt="" width="80px">
-            <img src="client-maker.svg" alt="" width="80px">
+          <img src="client-databiz.svg" alt="" width="90px" />
+          <img src="client-audiophile.svg" alt="" width="60px" />
+          <img src="client-meet.svg" alt="" width="80px" />
+          <img src="client-maker.svg" alt="" width="80px" />
         </div>
+      </div>
+      <div class="right-part">
+        <img src="image-hero-desktop.png" alt="" width="400px" />
+      </div>
     </div>
-    <div class="right-part">
-        <img src="image-hero-desktop.png" alt="" width="400px">
-    </div>
-</div>
-    
-</body>
-<script src="script.js"></script>
+  </body>
+  <script src="script.js"></script>
 </html>

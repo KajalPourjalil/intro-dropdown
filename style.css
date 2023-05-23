@@ -52,28 +52,69 @@ header > img {
     margin-top: 31px;
 }
 
-/* header > img:hover {
-    color: hsl(0, 0%, 8%);
-    cursor: pointer;
-} */
 
-ul {
+#dp1, #dp2 {
     color: hsl(0, 0%, 41%);
     font-weight: 500;
+    font-size: 16px;
     margin-top: 28px;
     margin-right: 10px;
     display: inline-block;
     padding-left: 10px;
+    background-color: hsl(0, 0%, 98%);
+    border: none;
 }
 
-ul > li {
-    display: none;
-}
-
-ul:hover {
+#dp1:hover {
     color: hsl(0, 0%, 8%) ;
     cursor: pointer;
 }
+
+
+#dpm1 {
+    width: 50px;
+    top: 120px;
+    right: 90px;
+    border-radius: 10px;
+}
+
+#dpm1 > li {
+    padding: 15px 35px 5px 35px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#dpm1 > li > img {
+    margin-right: 13px;
+}
+
+#dpm2 {
+    width: 50px;
+    border-radius: 10px;
+    top: 110px;
+    right: 100px;
+}
+
+#dpm2 > li {
+    padding: 15px 35px 5px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+
+
+#dpm1, #dpm2 {
+    /* display: none; */
+    position: relative;
+    box-shadow: 0px 0px 40px #ccc;
+    width: 230px;
+    color:  hsl(0, 0%, 41%);
+    list-style: none;
+    font-size: 16px;
+}
+
+
 
 
 
