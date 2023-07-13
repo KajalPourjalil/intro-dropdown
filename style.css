@@ -18,9 +18,9 @@ body {
 
 
 header {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
 }
 
 header > h1 {
@@ -52,6 +52,7 @@ ul {
     font-weight: 500;
     margin-top: 28px;
     margin-right: 10px;
+    display: inline-block;
 }
 
 ul > li {
