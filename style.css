@@ -18,14 +18,14 @@ body {
 
 
 header {
-    /* display: flex;
+    display: flex;
     justify-content: space-between;
-    align-items: center; */
+    align-items: center;
 }
 
-header > h1 {
-    color: hsl(0, 0%, 8%);
-    margin-top: 15px;
+
+header > .logo {
+    margin-top: 40px;
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -35,6 +35,7 @@ header > h4 {
     font-size: 16px;
     font-weight: 500;
     margin-top: 28px;
+    padding-left: 20px;
 }
 
 header > h4:hover {
@@ -42,9 +43,13 @@ header > h4:hover {
     cursor: pointer;
 }
 
+.about {
+    padding-right: 600px;
+}
+
 header > img {
     width: 20px;
-    margin-top: 35px;
+    margin-top: 31px;
 }
 
 ul {
@@ -53,6 +58,7 @@ ul {
     margin-top: 28px;
     margin-right: 10px;
     display: inline-block;
+    padding-left: 10px;
 }
 
 ul > li {
@@ -71,15 +77,17 @@ ul:hover {
     height: 40px;
     border-radius: 13px;
     margin-top: 17px;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 15px;
     border: white;
     margin-right: 10px;
+    color: hsl(0, 0%, 41%);
     
 }
 
 #reg {
     width: 130px;
+    border: 2px solid hsl(0, 0%, 41%);
 }
 
 #log {
@@ -87,10 +95,17 @@ ul:hover {
 }
 
 
-#reg:hover, #log:hover{
+#reg:hover{
     border: 2px solid black;
     cursor: pointer;
+    color: hsl(0, 0%, 8%);
 }
+
+#log:hover {
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+
 
 /* ................................................ */
 
